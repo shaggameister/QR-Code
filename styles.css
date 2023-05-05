@@ -1,0 +1,39 @@
+body {
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
+  max-width: 1440px;
+  min-width: 375px;
+  margin: 0;
+  text-align: center;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.main {
+  width: 330px;
+  background-color: hsl(0, 0%, 100%);
+  margin: 20px auto 0 auto;
+  border-radius: 18px;
+}
+
+.qr-code,
+h1,
+p {
+  width: 300px;
+}
+
+.qr-code {
+  margin-top: 18px;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 24px;
+  color: hsl(218, 44%, 22%);
+  margin: 15px auto;
+}
+
+p {
+  margin: auto;
+  padding-bottom: 50px;
+  color: hsl(220, 15%, 55%);
+}
